@@ -9,3 +9,5 @@ To open the Markdown Source file (readme.md):
 4. Voila! The readme.md can be read now.
 
 5. Or open the GitHub link: https://github.com/SahilSidam11/apriori-algorithm/blob/main/readme.md
+
+6. Or you can also use the .pdf version.
