@@ -30,7 +30,7 @@ Efficiency of the level-wise generation of itemsets can be improved by the help 
 After extraction of the `.zip` file, follow these steps:
 <br>
 1. Make sure that the `categories.txt` and `main.py` are in the same directory. For no errors, make sure that the `readpath` variable within the code is set to the *Relative Path* of the `categories.txt` file.
-2. Place your transaction data in the categories.txt file. Each line should represent a transaction, and items within a transaction should be separated by semicolons (;).
+2. Place your transaction data in the categories.txt file. Each line should represent a transaction, and items within a transaction should be separated by semicolons (";").
 3. Similarly, the `writepath` variable can also be modified to set the directory into which the `.txt` files will be written.
 4. Open the `main.py` file in any Python IDE or VSCode.
 5. Run the `main.py` and open the directory corresponding to `writepath`.
