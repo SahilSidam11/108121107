@@ -173,6 +173,7 @@ def apriori(input, data, minSup, k, freqSet, countSet):
 # Driver Code:    
 readpath = 'categories.txt'
 writepath = 'patterns_all.txt'
+write_path = 'patterns_close.txt'
 freqSet = list()
 countSet = list()
 minSup = 771
@@ -185,6 +186,6 @@ itemSet, itemCount = apriori(categories, dataBase, minSup, k, freqSet, countSet)
 final = sortDec(addlist(itemCount))
 total_count = len(final)
 writeFile(writepath, final, total_count)
-
+writeFile(write_path, final, total_count)
 print(sortDec(final))
 
