@@ -102,7 +102,7 @@ The overall Time Complexity of the algorithm is `O(n^2*logn)`.
 
 ## Conclusion
 This Apriori algorithm is costly in terms of time efficiency and is a heavyweight algorithm with <br>
-*Time Complexity* = `O(n^2*logn)` and *Space Complexity* ~ `O(n^2)`
+*Time Complexity* = `O((n^2)*logn)` and *Space Complexity* ~ `O(n^2)`
 <br>
 ### Optimizations
 The code can be further optimized using an iterative approach and reusing the data structures already present i.e. modifying the contents of data structures to reduce the Space Complexity upto `O(1)` while the Time Complexity can be reduced till `O(n*logn)`. It can also be optimized by using external libraries like `itertools` which offers a `combinations` function that can make candidate itemsets efficiently in `O(n)` time. There are also data structures from external libraries that can help reduce Space Complexity by considerable amount, one such is `defaultdict` from `collections` library. The Space Complexity of the algorithm can be reduced to `O(n)` by using this data structure.
